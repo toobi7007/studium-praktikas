@@ -1,3 +1,5 @@
+package Praktikas;
+
 import java.io.*;
 
 public class praktika_1_3 {

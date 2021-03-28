@@ -1,3 +1,5 @@
+package Praktikas;
+
 import java.io.*;
 // ACHTUNG: Unbedingt throws IOExeption it hinzufügen!
 // und java.io.* importieren
