@@ -4,7 +4,7 @@ import java.nio.file.*;
 public class praktika_1_4 {
     public static void main(String[] args) throws IOException {
 	copyFile("/home/akex/testf", "/home/akex/prog/studium-praktika");
-	if(
+
 
 	String dir = "Kopie";
 	Path dirPath = Paths.get(dir);
@@ -33,9 +33,6 @@ public class praktika_1_4 {
     public static void moveFile(String source, String target) throws IOException {
 	Path sourcePath = Paths.get(source);
 	Path targetPath = Paths.get(target);
-	for (; i < N; i++) {
-	    
-	}
 	Files.move(sourcePath, targetPath, StandardCopyOption.REPLACE_EXISTING);
 
 	if(Files.exists(targetPath)) {

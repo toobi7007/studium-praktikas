@@ -1,7 +1,7 @@
 import java.io.*;
 // ACHTUNG: Unbedingt throws IOExeption it hinzufügen!
 // und java.io.* importieren
-public class praktika_1 {
+public class praktika_1_1 {
     private static void aufgabe_2(RandomAccessFile flie) {
 	System.out.println("hey aus funktion nr. 3");
     }
